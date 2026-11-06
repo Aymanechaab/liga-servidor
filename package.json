@@ -1,0 +1,10 @@
+{
+  "name": "liga-secreta-fpb26-servidor",
+  "version": "1.0.0",
+  "description": "Servidor de respaldo (WebSocket) para jugar en línea a Liga Secreta FPB 26",
+  "type": "module",
+  "main": "relay-node.mjs",
+  "scripts": { "start": "node relay-node.mjs" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}
